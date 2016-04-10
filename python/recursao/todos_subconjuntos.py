@@ -13,7 +13,5 @@ def subconjunto(conjunto, nivel, marca):
 
 conjunto = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 marca = [0 for i in range(0, len(conjunto))]
-print conjunto
-print marca
 
 subconjunto(conjunto, 0, marca)
